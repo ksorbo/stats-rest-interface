@@ -23,6 +23,7 @@ Route::get('/prayersignup','FormPostController@prayerTaskForceSignup');
 //    print_r($_REQUEST);die;
 //});
 
+
 Route::get('/fullstats/{period1?}/{period2?}','StatisticsController@fullstats');
 
 Route::get('/inquirermap/{days?}/{toshow?}/{start?}/{end?}','StatisticsController@inquirermap');
